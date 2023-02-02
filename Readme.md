@@ -102,7 +102,7 @@ Note: You can also get them from your client's `extern/include/jpeg` folder.
 
 
 ## Client Source
-#### <ins>UiScript/UserInterface.cpp</ins>
+#### <ins>UserInterface/UserInterface.cpp</ins>
 find  
 `#pragma comment( lib, "DevIL-1.7.8.lib" )       // images`  
 
@@ -119,7 +119,7 @@ add
 `iluInit();`  
 
 
-#### <ins>UiScript/PythonApplicationModule.cpp</ins>
+#### <ins>UserInterface/PythonApplicationModule.cpp</ins>
 You don't need ILU.lib if you don't want to do this.
 
 find   
